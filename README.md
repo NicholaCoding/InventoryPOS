@@ -6,9 +6,15 @@
 - run `` npm install ``
 - rename .env.example to .env
 - run ``npm run dev``
+- open new tab in terminal
 - run `` php artisan key:generate ``
+- run `` msql -u root -p
+- insert your "password"
+- run `` CREATE DATABASE triangle_pos; "(SQL)
+- run ``exit;  ``(SQL)
 - set up your database in the .env
 - run ''php artisan migrate''
+  
 - run `` php artisan migrate --seed ``
 - run `` php artisan storage:link ``
 - run `` php artisan serve ``
@@ -16,15 +22,10 @@
 
 > **Important Note:** "Triangle POS" uses Laravel Snappy Package for PDFs. If you are using Linux then no configuration is needed. But in other Operating Systems please refer to [Laravel Snappy Documentation](https://github.com/barryvdh/laravel-snappy).
 
-# Docker Installation
 
-This will start the application along with the mysql database using docker compose. Note that the `DB_HOST` variable must be the mysql docker container name, in this case `db`.
-
-- run `` docker build -t triangle-pos . `` 
-- run `` docker compose up ``
-- then visit `` http://localhost:8000 or http://127.0.0.1:8000 ``.
 
 Requirement:
+composer
 Msql 
 npm
 
