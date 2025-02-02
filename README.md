@@ -1,7 +1,7 @@
 
 # Local Installation
 
-- run `` git clone https://github.com/NicholaCoding/triangle-pos.git ``
+- run `` git clone https://github.com/NicholaCoding/InventoryPOS.git ``
 - run ``composer install `` 
 - run `` npm install ``
 - rename .env.example to .env
